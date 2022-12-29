@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+}
+body {
+  background-color: #222;
+  color: #fff;
+  height: 100vh;
+  overflow: hidden;
+  width: 100vw;
+  /* display: flex;
+  flex-direction: column; */
+  font-size: 20px;
+}
+header {
+  position: relative;
+  height: 36%;
+  border-bottom: 5px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.between {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 14px;
+}
+.question {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translate(-60px);
+  background-color: #fff;
+  color: #222;
+  height: 120px;
+  width: 120px;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  padding: 18px 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.again {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64%;
+}
+.left {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input[type='number'] {
+  background-color: #222;
+  color: #fff;
+  font-size: 50px;
+  padding: 10px;
+  border: 5px solid #fff;
+  width: 260px;
+  height: 110px;
+  text-align: center;
+  margin: 30px;
+}
+.right {
+  width: 55%;
+  padding: 20px;
+}
+.start {
+  margin: 0 0 80px;
+}
+.score {
+  margin-bottom: 20px;
+}
